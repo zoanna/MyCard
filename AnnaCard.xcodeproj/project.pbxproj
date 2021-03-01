@@ -11,6 +11,8 @@
 		95D883E525E8196700F052E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D883E425E8196700F052E7 /* ContentView.swift */; };
 		95D883E725E8196B00F052E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D883E625E8196B00F052E7 /* Assets.xcassets */; };
 		95D883EA25E8196B00F052E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D883E925E8196B00F052E7 /* Preview Assets.xcassets */; };
+		95D883F425E81C5700F052E7 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95D883F325E81C5700F052E7 /* Pacifico-Regular.ttf */; };
+		95D883F725E8297900F052E7 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D883F625E8297900F052E7 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		95D883E625E8196B00F052E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95D883E925E8196B00F052E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95D883EB25E8196B00F052E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D883F325E81C5700F052E7 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		95D883F625E8297900F052E7 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,10 @@
 		95D883E125E8196700F052E7 /* AnnaCard */ = {
 			isa = PBXGroup;
 			children = (
+				95D883F225E81C3C00F052E7 /* fonts */,
 				95D883E225E8196700F052E7 /* AnnaCardApp.swift */,
 				95D883E425E8196700F052E7 /* ContentView.swift */,
+				95D883F625E8297900F052E7 /* InfoView.swift */,
 				95D883E625E8196B00F052E7 /* Assets.xcassets */,
 				95D883EB25E8196B00F052E7 /* Info.plist */,
 				95D883E825E8196B00F052E7 /* Preview Content */,
@@ -67,6 +73,14 @@
 				95D883E925E8196B00F052E7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95D883F225E81C3C00F052E7 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				95D883F325E81C5700F052E7 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95D883F425E81C5700F052E7 /* Pacifico-Regular.ttf in Resources */,
 				95D883EA25E8196B00F052E7 /* Preview Assets.xcassets in Resources */,
 				95D883E725E8196B00F052E7 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95D883E525E8196700F052E7 /* ContentView.swift in Sources */,
+				95D883F725E8297900F052E7 /* InfoView.swift in Sources */,
 				95D883E325E8196700F052E7 /* AnnaCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
